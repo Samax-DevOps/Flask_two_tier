@@ -29,8 +29,8 @@ services:
       - "5001:5000"
     environment:
       MYSQL_HOST: mysql
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
       MYSQL_DB: devops
     depends_on:
       mysql: 
